@@ -27,6 +27,9 @@ public class App {
                     case 2:
                         StudentManager.showListStudent();
                         break;
+                    case 3:
+                        StudentManager.deleteStudent();
+                        break;
                 }
             }
 
