@@ -15,9 +15,11 @@ public class App {
                 System.out.println("2: Show list students");
                 System.out.println("3: Delete students");
                 System.out.println("4: Update students");
-                System.out.println("5: Exit");
+                System.out.println("5: Import students from file: ");
+                System.out.println("6: Export students to file: ");
+                System.out.println("10: Exit");
                 int choice = Integer.parseInt(scanner.nextLine());
-                if (choice == 5) {
+                if (choice == 10) {
                     break;
                 }
                 switch (choice) {
